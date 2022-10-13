@@ -1,0 +1,851 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background-color: #16213E;
+}
+.oh1{
+    font-size: 25px;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    top: 25%;
+}
+.u1{
+    float: right;
+    margin-right: 5%;
+    position: relative;
+    top: 30%;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+}
+.a1{
+    color: white;
+}
+.t2h1{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.sp1{
+    color: rgb(255, 221, 0);
+}
+.t3h1{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 32%;
+}
+.but1{
+    height: 7%;
+    width: 20%;
+    background-color: #FECD70;
+    border: 2px solid rgb(255, 221, 0);
+    border-radius: 25px;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    font-size: 16px;
+}
+.but2{
+    height: 7%;
+    width: 20%;
+    background-color: #FECD70;
+    border: 2px solid rgb(255, 221, 0);
+    border-radius: 25px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    font-size: 16px;
+}
+.top2{
+    height: 140px;
+    width: 100%;
+    background-color: #16213E;
+}
+.oh2{
+    color: rgb(255, 221, 0);
+    font-size: 25px;
+    position: absolute;
+    top: 107%;
+    left: 5%;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 113%;
+    left: 5%;
+}
+.but3{
+    height: 7%;
+    width: 20%;
+    background-color: #FECD70;
+    border: 2px solid rgb(255, 221, 0);
+    border-radius: 25px;
+    position: absolute;
+    top: 110%;
+    right: 5%;
+    font-size: 16px;
+}
+.top3{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.box1{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    border: 1px inset black;
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.box2{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    border: 1px inset black;
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 36.5%;
+}
+.box3{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    border: 1px inset black;
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+.pho2, .pho3, .pho4{
+    position: absolute;
+    left: 32%;
+    top: 5%;
+}
+.hh3{
+    color: grey;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 18px;
+}
+.pr1, .pr2, .pr3{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 16px;
+    color: grey;
+}
+.big{
+    height: 35%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.big1, .big3{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+}
+.big2,.big4{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: inline-block;
+}
+.big2{
+    position: absolute;
+    left: 25%;
+}
+.big3{
+    position: absolute;
+    left: 50%;
+}
+.big4{
+    position: absolute;
+    right: 0%;
+}
+.fh3{
+    color: rgb(255, 221, 0);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+.t2h3{
+    color: rgb(255, 221, 0);
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.pr4, .pr5{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    font-size: 16px;
+}
+.but4{
+    height: 10%;
+    width: 30%;
+    background-color: black;
+    border: 1px solid rgb(255, 221, 0);
+    border-radius: 25px;
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+    font-size: 15px;
+    color: white;
+}
+.f4h1{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+.one, .two, .three{
+    height: 170px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.on1{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    border-radius: 25px;
+}
+.on2{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    border-radius: 25px;
+}
+.pho5{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    background-color: white;
+    border-radius: 20px;
+}
+.o1h3{
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    color: rgb(255, 221, 0);
+}
+.o1pr{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: white;
+    font-size: 15px;
+}
+.hr1{
+    height: 5%;
+    width: 40%;
+    background-color: #16213E;
+}
+.f5h1{
+    text-align: center;
+}
+.p4{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+.ddiv{ 
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.d1, .d2, .d3{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+.d1{
+    position: absolute;
+    left: 0px;
+    background-color: white;
+}
+.d2{
+    position: absolute;
+    left: 400px;
+    background-color: black;
+}
+.d3{
+    position: absolute;
+    right: 0px;
+    background-color: white;
+}
+.pho6{
+    position: absolute;
+    left: 0%;
+}
+.bh{
+    color: rgb(255, 221, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.bbp{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.d2div{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.c1d, .c2d, .c3d{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+.c1d{
+    position: absolute;
+    left: 0px;
+    background-color: black;
+}
+.c2d{
+    position: absolute;
+    left: 400px;
+    background-color: white;
+}
+.c3d{
+    position: absolute;
+    right: 0px;
+    background-color: black;
+}
+.bh1{
+    color: rgb(255, 221, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.bbp1{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.pho8{
+    position: absolute;
+    left: 35%;
+    bottom: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.pho9{
+    position: absolute;
+    right: 40%;
+    bottom: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.pho10{
+    position: absolute;
+    left: 40%;
+    bottom: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.por{
+    height: 700px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.hh2, .pp2{
+    text-align: center;
+}
+.but5, .but6, .but7, .but8{
+    height: 7%;
+    width: 10%;
+    position: relative;
+    top: 2%;
+    border: 1px solid rgb(255, 221, 0);
+    border-radius: 20px;
+    font-size: 15px;
+}
+.but5{
+    position: relative;
+    left: 20%;
+}
+.but6{
+    position: relative;
+    left: 25%;
+}
+.but7{
+    position: relative;
+    left: 30%;
+}
+.but8{
+    position: relative;
+    left: 35%;
+}
+.small{
+    height: 500px;
+    width: 80%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+}
+.small1{
+    position: relative;
+    left: 115px;
+}
+.helping{
+    height: 200px;
+    width: 1400px;
+    background-color: aliceblue;
+}
+.hel2, .prhe2{
+    text-align: center;
+}
+.but9{
+    height: 15%;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.ascren{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(160, 154, 154);
+}
+.asc1, .asc2{
+    text-align: center;
+}
+.abs1{
+    height: 500px;
+    width: 90%;
+    opacity: 0.9;
+    display: flex;
+}
+.aas1, .aas2, .aas3{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+}
+.asmal{
+    height: 60px;
+    width: 170px;
+    background-color: black;
+    position: relative;
+    top: 10%;
+    right: 2%;
+    border-radius: 50px;
+}
+.asmal::before{
+    content: "";
+    height: 3px;
+    width: 60px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 170px;
+    background-color: black;
+}
+.asmal::after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 170px;
+    background-color: black;
+}
+.h14{
+    text-align: center;
+}
+.ap1{
+    color: rgb(255, 221, 0);
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-size: 25px;
+}
+.abc{
+    position: relative;
+    top: 17%;
+    right: 225px;
+    font-size: 18px;
+}
+.but10{
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    height: 10%;
+    width: 40%;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.aas2{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+}
+.aas3{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    bottom: 5%;
+}
+.finall{
+    height: 500px;
+    width: 80%;
+    opacity: 0.9;
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.fin1{
+    height: 500px;
+    width: 30%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+.fin2{
+    height: 500px;
+    width: 70%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+}
+.p5{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 22px;
+}
+.fipr1{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+    font-size: 17px;
+}
+.pho11{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 50px;
+}
+.pho12{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 50px;
+}
+.p6{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: white;
+    font-size: 22px;
+}
+.fipr2{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: white;
+    font-size: 17px;
+}
+.p7{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    color: white;
+    font-size: 22px;
+}
+.p8{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color: white;
+    font-size: 17px;
+}
+.p9{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    font-size: 17px;
+}
+.fi1h2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.in1{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.in2{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.in3{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.in4{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.in5{
+    height: 250px;
+    width: 685px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.but11{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.lastd{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(43, 38, 38);
+    display: flex;
+    position: relative;
+}
+.last1{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 25, 25);
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+.h2l, .h2l2{
+    color: white;
+}
+.h2l{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.prl{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    font-size: 17px;
+    color: grey;
+}
+.h2l2{
+    position: absolute;
+    left: 25%;
+    top: 65%;
+}
+.inl{
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+    height: 7%;
+    width: 30%;
+}
+.last2{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 25, 25);
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+}
+.h2la{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+}
+.prla{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: grey;
+    font-size: 17px;
+}
+.last3{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 25, 25);
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+.h2la2{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+}
+.pho13{
+    position: absolute;
+    left: 25px;
+}
+.pic1{
+    position: absolute;
+    top: 35%;
+}
+.pic2{
+    position: absolute;
+    top: 52%;
+}
+.pic3{
+    position: absolute;
+    top: 70%;
+}
+.prla3{
+    position: absolute;
+    top: 37%;
+    left: 28%;
+    color: white;
+    font-size: 14px;
+}
+.sp2, .sp3, .sp4{
+    color: grey;
+    font-size: 13px;
+}
+.prla32{
+    position: absolute;
+    top: 54%;
+    left: 28%;
+    color: white;
+    font-size: 14px;
+}
+.prla33{
+    position: absolute;
+    top: 72%;
+    left: 28%;
+    color: white;
+    font-size: 14px;
+}
+.last4{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 25, 25);
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+}
+.h2la4{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+}
+.p10{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: grey;
+}
+.pho14{
+    position: absolute;
+    top: 40%;
+}
+.pic4{
+    position: absolute;
+    left: 25%;
+}
+.pic5{
+    position: absolute;
+    left: 45%;
+}
+.pic6{
+    position: absolute;
+    left: 65%;
+}
+.llastt{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(20, 19, 19);
+}
+.fipl{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.lasp{
+    color: rgb(255, 221, 0);
+}
